@@ -1,0 +1,15 @@
+{
+  "validUser": {
+    "username": "Admin",
+    "password": "admin123"
+  },
+  "invalidUser": {
+    "username": "UserSalah",
+    "password": "PasswordSalah123",
+    "capsPassword": "ADMIN123"
+  },
+  "messages": {
+    "required": "Required",
+    "invalidCredentials": "Invalid credentials"
+  }
+}
