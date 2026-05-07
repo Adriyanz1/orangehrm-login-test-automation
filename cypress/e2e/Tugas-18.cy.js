@@ -80,7 +80,6 @@ describe('API Testing Categories', () => {
       url: 'https://api.escuelajs.co/api/v1/categories/1/products'
     }).then((response) => {
       expect(response.status).to.eq(200)
-      // Memastikan produk pertama dalam kategori memiliki ID dan Title
       expect(response.body[0]).to.have.property('id', 1)
       expect(response.body[0]).to.have.property('title', 'Majestic Mountain Graphic T-Shirt')
     })
