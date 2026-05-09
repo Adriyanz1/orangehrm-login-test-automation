@@ -1,0 +1,14 @@
+{
+  "validUser": {
+    "username": "Admin",
+    "password": "admin123"
+  },
+  "search": {
+    "keyword": "Peter",
+    "fullName": "Peter Mac Anderson"
+  },
+  "filters": {
+    "jobTitle": "Account Assistant",
+    "location": "New York Sales Office"
+  }
+}
